@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simpsons</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<script>
+
+    let allUsers = [
+        {name: 'Petro', username: 'petya23', password: 558521},
+        {name: 'Katya', username: 'ketri19', password: 1439423},
+        {name: 'Vasya', username: 'vaska24', password: 987627},
+        {name: 'Ira', username: 'irka22', password: 2367522},
+        {name: 'Kolya', username: 'kol4ik', password: 567525},
+        {name: 'Olha', username: 'oli4ka23', password: 76678528},
+        {name: 'Dima', username: 'dimon20', password: 143524},
+        {name: 'Anya', username: 'anyutka18', password: 143429},
+        {name: 'George', username: 'ge2223', password: 1434820},
+        {name: 'Joni', username: 'joni1990', password: 7678567}
+    ];
+
+    for (const allUser of allUsers) {
+        for (const element in allUser) {
+            console.log(element, allUser[element])
+            // console.log(allUser['name'], allUser['password'])
+        }
+
+        console.log('');
+    }
+
+</script>
+</body>
+</html>

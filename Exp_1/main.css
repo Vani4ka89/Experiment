@@ -27,7 +27,8 @@
     background: blueviolet;
 }
 
-#videoplayer {
-    width: 300px;
-    height: 200px;
+
+.block {
+    background: red;
+    padding-bottom: 20px;
 }
